@@ -1,7 +1,21 @@
+# Note
+
+This is a work in progress.
+
+I am working on the back-end part of this project in Java Spring Boot
+
+Part done : 
+        - Api for invoice/company/contact ( CRUD )
+        - Database for invoice/company/contact
+
+To work on :
+        - Authentication
+        - Role permission
+
 
 # Cogit
 
-A brief description of what this project does and who it's for
+The purpose of this project is to have a web application for an accountant to streamline financial management.
 
 
 
@@ -158,7 +172,7 @@ A brief description of what this project does and who it's for
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `auth_key`      | `string` | **Required**. Your auth key |
-| `id` | `int` | **Required**. ID of the company
+| `id` | `int` | **Required**. ID of the company |
 | `name` | `string` | updated contact name |
 | `type_id` | `int` | updated type of the company 0 for supplier / 1 for client |
 | `country` | `int` | updated Country of the company |
